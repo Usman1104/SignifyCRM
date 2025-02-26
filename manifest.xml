@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="SignifyCRM"/>
   <Description DefaultValue="A template to get started SignifyCRM."/>
-  <IconUrl DefaultValue="https://usman1104.github.io/SignifyCRM/assets/Signify-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://usman1104.github.io/SignifyCRM/assets/Signify-128.png"/>
+  <IconUrl DefaultValue="https://localhost:3000/assets/Signify-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/Signify-128.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
@@ -27,7 +27,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://usman1104.github.io/SignifyCRM/taskpane.html"/>
+        <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -152,13 +152,13 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="https://usman1104.github.io/SignifyCRM/assests/Signify-16.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://usman1104.github.io/SignifyCRM/assets/Signify-32.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://usman1104.github.io/SignifyCRM/assets/Signify-80.png"/>
+          <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assests/Signify-16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/Signify-32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/Signify-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://usman1104.github.io/SignifyCRM/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://usman1104.github.io/SignifyCRM/taskpane.html"/>
+          <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="SignifyCRM"/>
